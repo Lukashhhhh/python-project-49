@@ -3,3 +3,6 @@
 
 ### Code Climate
 [![Maintainability](https://api.codeclimate.com/v1/badges/e5e616ad3205a00db9d7/maintainability)](https://codeclimate.com/github/Lukashhhhh/python-project-49/maintainability)
+
+### Asciinema
+https://asciinema.org/a/a6ouA2utIIckPsZBIRDiKAhoI
