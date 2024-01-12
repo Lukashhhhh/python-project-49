@@ -7,6 +7,9 @@ brain-games:
 brain-even:
 	poetry run brain-even
 
+brain-calc:
+	poetry run brain-calc
+
 build:
 	poetry build
 
@@ -21,3 +24,8 @@ package-reinstall:
 
 lint:
 	poetry run flake8 brain_games
+
+upgrade:
+	poetry build
+	poetry publish --dry-run
+	python3 -m pip install --user --force-reinstall dist/*.whl
