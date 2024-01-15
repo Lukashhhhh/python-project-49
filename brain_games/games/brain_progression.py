@@ -7,10 +7,11 @@ def generate_progression():
     step = randint(1, 10)
     result = []
     for i in range(10):
-        result.append(start + i * step)
+        result.append(str(start + i * step))
     miss_index = randint(1, 9)
     miss, result[miss_index] = result[miss_index], '..'
-    return result, str(miss)
+    result_str = ' '.join(result)
+    return result_str, miss
 
 
 def game() -> tuple:
