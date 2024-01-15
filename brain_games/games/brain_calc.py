@@ -12,7 +12,7 @@ def generate_condition() -> tuple:
     number_2 = randint(1, 100)
     action = choice(['+', '-', '*'])
     cor_answer = answer(number_1, number_2, action)
-    return f'{number_1}{action}{number_2}', cor_answer
+    return f'{number_1} {action} {number_2}', cor_answer
 
 
 def game() -> tuple:
