@@ -9,15 +9,11 @@ def find_gcd(numbers: tuple) -> str:
     return str(result)
 
 
-def generate_condition():
+def game() -> tuple:
     number_1 = randint(1, 100)
     number_2 = randint(1, 100)
-    return number_1, number_2
-
-
-def game() -> tuple:
-    qwestion = generate_condition()
-    correct_answer = find_gcd(qwestion)
+    qwestion = f'{number_1} {number_2}'
+    correct_answer = find_gcd((number_1, number_2))
     return qwestion, correct_answer
 
 
