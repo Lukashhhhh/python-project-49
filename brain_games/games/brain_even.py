@@ -5,7 +5,6 @@ def is_even(question: int) -> bool:
     return question % 2 == 0
 
 
-
 def generate_data() -> tuple:
     '''
     Generates random number and checks if it is even.

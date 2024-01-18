@@ -9,7 +9,6 @@ def is_prime(question: int) -> bool:
     return count == 1
 
 
-
 def generate_data() -> tuple:
     '''
     Generates random number and check if it is prime.
