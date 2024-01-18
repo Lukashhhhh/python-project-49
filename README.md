@@ -15,4 +15,3 @@
 4. [![asciicast](https://asciinema.org/a/7MtgE5qNMhCRDHheGjvbD0pfI)](https://asciinema.org/a/7MtgE5qNMhCRDHheGjvbD0pfI)
 
 5. [![asciicast](https://asciinema.org/a/ZdjhEbwqMOXAFqNy3fhBWjGru)](https://asciinema.org/a/ZdjhEbwqMOXAFqNy3fhBWjGru)
-s
