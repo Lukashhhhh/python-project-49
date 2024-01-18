@@ -12,7 +12,8 @@ def generate_data() -> tuple:
         question.append(str(start + i * step))
     miss_index = randint(1, 9)
     right_answer, question[miss_index] = question[miss_index], '..'
-    return question, right_answer
+    question_str = ' '.join(question)
+    return question_str, right_answer
 
 
 DESCRIPTION = 'What number is missing in the progression?'
