@@ -1,15 +1,20 @@
-from brain_games.cli import welcome_user
 import prompt
 
 
-def run_game(game):
+def welcome_user():
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
+    return name
+
+
+def run(game):
     name = welcome_user()
-    print(game.description)
-    max_game_rounds = 3
-    for _ in range(max_game_rounds):
-        qwestion = game.generate_qwestion()
-        correct_answer = game.correct_answer(qwestion)
-        print(f'Question: {qwestion}')
+    print(game.DESCRIPTION)
+    MAX_GAME_ROUNDS = 3
+    for _ in range(MAX_GAME_ROUNDS):
+        question, correct_answer = game.generate_data()
+        print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:
             print('Correct!')
