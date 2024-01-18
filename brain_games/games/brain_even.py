@@ -1,14 +1,19 @@
 from random import randint
 
 
-def correct_answer(qwestion: str) -> str:
-    if int(qwestion) % 2 == 0:
+def is_even(question: int) -> str:
+    if question % 2 == 0:
         return 'yes'
     return 'no'
 
 
-def generate_qwestion() -> str:
-    return str(randint(1, 100))
+def generate_data() -> tuple:
+    '''
+    Generates random number and checks if it is even.
+    '''
+    question = randint(1, 100)
+    right_answer = is_even(question)
+    return str(question), right_answer
 
 
-description = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'

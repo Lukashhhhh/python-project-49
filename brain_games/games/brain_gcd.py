@@ -1,18 +1,16 @@
 from random import randint
-from math import gcd as gsd
+from math import gcd as gcd
 
 
-def correct_answer(qwestion: str) -> str:
-    num1, num2 = qwestion.split()
-    num1, num2 = int(num1), int(num2)
-    result = gsd(num1, num2)
-    return str(result)
-
-
-def generate_qwestion() -> str:
+def generate_data() -> tuple:
+    '''
+    Generates random numbers and gcd.
+    '''
     number_1 = randint(1, 100)
     number_2 = randint(1, 100)
-    return f'{number_1} {number_2}'
+    question = f'{number_1} {number_2}'
+    right_answer = str(gcd(number_1, number_2))
+    return question, right_answer
 
 
-description = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'

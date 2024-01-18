@@ -1,26 +1,18 @@
 from random import randint
 
 
-def correct_answer(qwestion: str) -> str:
-    qwestion_list = qwestion.split()
-    i = qwestion_list.index('..')
-    if i > 2:
-        lost_num = 2 * int(qwestion_list[i - 1]) - int(qwestion_list[i - 2])
-    else:
-        lost_num = 2 * int(qwestion_list[i + 1]) - int(qwestion_list[i + 2])
-    return str(lost_num)
-
-
-def generate_qwestion() -> str:
+def generate_data() -> tuple:
+    '''
+    Generates an arithmetic progression and skips one number.
+    '''
     start = randint(1, 10)
     step = randint(1, 10)
-    result = []
+    question = []
     for i in range(10):
-        result.append(str(start + i * step))
+        question.append(str(start + i * step))
     miss_index = randint(1, 9)
-    result[miss_index] = '..'
-    result_str = ' '.join(result)
-    return result_str
+    right_answer, question[miss_index] = question[miss_index], '..'
+    return question, right_answer
 
 
-description = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
