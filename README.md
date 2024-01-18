@@ -4,14 +4,15 @@
 ### Code Climate
 [![Maintainability](https://api.codeclimate.com/v1/badges/e5e616ad3205a00db9d7/maintainability)](https://codeclimate.com/github/Lukashhhhh/python-project-49/maintainability)
 
-### Asciinema 
-1. https://asciinema.org/a/a6ouA2utIIckPsZBIRDiKAhoI
+### ASCIInemas of package installation and all games:
 
-2. https://asciinema.org/a/dgSaocBs9F9VDZokPUCCLwkXO
+1. [![asciicast](https://asciinema.org/a/a6ouA2utIIckPsZBIRDiKAhoI)](https://asciinema.org/a/a6ouA2utIIckPsZBIRDiKAhoI)
 
-3. https://asciinema.org/a/jgIjnQSOl4pjsUSlejQohfLS4
+2. [![asciicast](https://asciinema.org/a/dgSaocBs9F9VDZokPUCCLwkXO)](https://asciinema.org/a/dgSaocBs9F9VDZokPUCCLwkXO)
 
-4. https://asciinema.org/a/7MtgE5qNMhCRDHheGjvbD0pfI
+3. [![asciicast](https://asciinema.org/a/jgIjnQSOl4pjsUSlejQohfLS4)](https://asciinema.org/a/jgIjnQSOl4pjsUSlejQohfLS4)
 
-5. https://asciinema.org/a/ZdjhEbwqMOXAFqNy3fhBWjGru
+4. [![asciicast](https://asciinema.org/a/7MtgE5qNMhCRDHheGjvbD0pfI)](https://asciinema.org/a/7MtgE5qNMhCRDHheGjvbD0pfI)
 
+5. [![asciicast](https://asciinema.org/a/ZdjhEbwqMOXAFqNy3fhBWjGru)](https://asciinema.org/a/ZdjhEbwqMOXAFqNy3fhBWjGru)
+s
