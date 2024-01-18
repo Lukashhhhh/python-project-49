@@ -1,10 +1,9 @@
 from random import randint
 
 
-def is_even(question: int) -> str:
-    if question % 2 == 0:
-        return 'yes'
-    return 'no'
+def is_even(question: int) -> bool:
+    return question % 2 == 0
+
 
 
 def generate_data() -> tuple:
@@ -12,7 +11,7 @@ def generate_data() -> tuple:
     Generates random number and checks if it is even.
     '''
     question = randint(1, 100)
-    right_answer = is_even(question)
+    right_answer = 'yes' if is_even(question) else 'no'
     return str(question), right_answer
 
 
