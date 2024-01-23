@@ -6,12 +6,12 @@
 
 ### ASCIInemas of package installation and all games:
 
-1. [![asciicast](https://asciinema.org/a/a6ouA2utIIckPsZBIRDiKAhoI)](https://asciinema.org/a/a6ouA2utIIckPsZBIRDiKAhoI)
+1. [![asciicast](https://asciinema.org/a/DF1qqmYBEQb5x9cmN8wrZyg3Q)](https://asciinema.org/a/DF1qqmYBEQb5x9cmN8wrZyg3Q)
 
-2. [![asciicast](https://asciinema.org/a/dgSaocBs9F9VDZokPUCCLwkXO)](https://asciinema.org/a/dgSaocBs9F9VDZokPUCCLwkXO)
+2. [![asciicast](https://asciinema.org/a/ZJcQwQWv21pBjMXDIQaiIcmaE)](https://asciinema.org/a/ZJcQwQWv21pBjMXDIQaiIcmaE)
 
-3. [![asciicast](https://asciinema.org/a/jgIjnQSOl4pjsUSlejQohfLS4)](https://asciinema.org/a/jgIjnQSOl4pjsUSlejQohfLS4)
+3. [![asciicast](https://asciinema.org/a/ofBAMH8zzwjkwUx1pqQtWfyOT)](https://asciinema.org/a/ofBAMH8zzwjkwUx1pqQtWfyOT)
 
-4. [![asciicast](https://asciinema.org/a/7MtgE5qNMhCRDHheGjvbD0pfI)](https://asciinema.org/a/7MtgE5qNMhCRDHheGjvbD0pfI)
+4. [![asciicast](https://asciinema.org/a/ev3Ahz34S8tLFJPIXbbpQF5OR)](https://asciinema.org/a/ev3Ahz34S8tLFJPIXbbpQF5OR)
 
-5. [![asciicast](https://asciinema.org/a/ZdjhEbwqMOXAFqNy3fhBWjGru)](https://asciinema.org/a/ZdjhEbwqMOXAFqNy3fhBWjGru)
+5. [![asciicast](https://asciinema.org/a/oh02atpHO2Ts5GA70j5lW9XDw)](https://asciinema.org/a/oh02atpHO2Ts5GA70j5lW9XDw)
